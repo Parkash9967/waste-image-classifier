@@ -1,0 +1,28 @@
+Waste Image Classification - Evaluation Results
+
+Model: ResNet18 Fine-Tuned
+Validation Images: 506
+Validation Accuracy: 0.9368
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   cardboard       0.97      0.96      0.97        81
+       glass       0.94      0.93      0.93       100
+       metal       0.88      0.98      0.92        82
+       paper       0.95      0.95      0.95       119
+     plastic       0.95      0.89      0.91        97
+       trash       0.92      0.89      0.91        27
+
+    accuracy                           0.94       506
+   macro avg       0.94      0.93      0.93       506
+weighted avg       0.94      0.94      0.94       506
+
+
+Confusion Matrix:
+[[ 78   0   1   2   0   0]
+ [  0  93   3   1   3   0]
+ [  0   1  80   0   1   0]
+ [  2   0   3 113   1   0]
+ [  0   5   3   1  86   2]
+ [  0   0   1   2   0  24]]
